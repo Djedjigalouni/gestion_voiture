@@ -72,7 +72,7 @@ class AdminController  extends AbstractController{
                 $modele = htmlspecialchars(trim($_POST["modele"]));
                 $image = filter_input(INPUT_POST , "image", FILTER_SANITIZE_URL );
                 $en_vente = $_POST["en_vente"] == "on" ? 1 : 0; 
-                var_dump($en_vente);
+				
                 if(strlen($nom ) < 3 || strlen($nom) > 100){
                     $erreur[] = "le titre doit contenir entre 3 et 100 lettres";
                 }
