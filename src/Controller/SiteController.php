@@ -11,7 +11,7 @@ class SiteController extends AbstractController{
         $data["h2"] = "Trouvez votre véhicule idéal dès aujourd'hui !";
        
         $data["title"] = "page d'accueil";
-        $data["titre"] = "Les voitures les plus achetées";
+        $data["titre"] = "Découvrez nos véhicule";
         
         $data["h5"] = "Rejoignez-nous, c'est gratuit !" ;
         $data["ul"] = ["li1"=>"Parcourez notre large selection de voitures." ,"li2"=> "Trouvez celles qui correspondent à vos critéres et à votre budget ." ,"li3"=> "Profiter de nos fonctionnaliter pour faciliter votre processus d'achat !"];
